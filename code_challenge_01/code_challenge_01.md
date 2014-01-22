@@ -61,7 +61,7 @@ Follow these steps:
 		* Verb
 		* Adverb
 		* Object
-	1. The method must return all of these in a hash where the index is the name of the part of speech, represented as a symbol. For example, ":noun" or ":verb".
+	1. The method must return all of these in a hash where the index is the name of the part of speech, represented as a symbol. For example, *:noun* or *:verb*.
 
 	1. Create a second method that takes the hash as a parameter and has an internal string variable named *template* that contains the following string:
 
@@ -103,7 +103,7 @@ Follow these steps:
 1. Switch local repositories & pull down the work from the previous increment into a local repository.
 1. Modify *madlibs.rb* to meet the following specification:
   1. Use object-oriented design: 
-  	1. Use one object that represents the user interface, named *UI*.  Put the code that prompts, gathers, and stores parts of speech into a method that returns the hash. Name the method "prompt".
+  	1. Use one object that represents the user interface, named *UI*.  Put the code that prompts, gathers, and stores parts of speech into a method that returns the hash. Name the method "prompt". So. it might work out
   	1. Make SentenceTemplate class, instantiate a bunch of templates, and store them in an array.
   	1. Put the code that inserts parts of speech into a sentence template into its own method in the sentence template object. Name the method "insert". If you are clever, you can write this method so that it doesn't need to know what parts of speech are contained in the hash or used in the template. It will use what is given. It should return a sentence with the parts of speech inserted, ready for printing to the screen.
 	1. Use the two classes and their methods to reproduce the exact behavior of the previous increment.
