@@ -13,7 +13,6 @@ January 2014
 >**Office Hours: Monday & Wednesday before & after class.**
 
 
-
 For definitive contractual agreements, see the "Portland Code School Student Enrollment Agreement" that you signed. Nothing in this syllabus is intended to supercede or replace terms agreed to in that document. Where a conflict exists, that document will apply.
 
 Objectives
@@ -92,6 +91,8 @@ Screencasts
 You all have Treehouse accounts. If you did not receive notice of your Treehouse account, please contact me. There are many alternative screencasts available for all of the topics that we will cover in this class, but I want you to invest time in the Treehouse ones. For some of you, screencasts will be a slow experience. Feel free to speed up the playback or to skip ahead to the quiz for each module to see if you already know what they are teaching. 
 
 You are required to complete the quizzes and earn the badges. You and I will review your progress every two weeks to make sure you are on track.
+
+Later in the course, you will receive accounts on codeschool.com in order to take specific courses. Your instructor will give you additional information.
 
 Making screencasts a good use of your time
 ------------------------
@@ -258,15 +259,20 @@ Week 3
 
 Week 4
 --------
-* Exploring the HTTP protocol & REST resources
-* Using Sinatra to respond to HTTP with Ruby
-* Ruby: Procs, Blocks, and Lambdas
+* Ruby: Writing tests with rspec
+* Ruby: command line interfaces
+* Product development lifecycle : Analysis, Design, and Construction
+* Career: Portland Ruby Brigade
+* Saturday classroom
 * Assessment checkpoint
 
 Week 5
 --------
 * Sinatra, continued
-* Product development lifecycle : Analysis, Design, and Construction
+* Exploring the HTTP protocol & REST resources
+* Using Sinatra to respond to HTTP with Ruby
+* Ruby: Procs, Blocks, and Lambdas
+
 * Tools: Deploying Sinatra on Heroku
 
 Week 6
