@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+# this first line is how the operating system knows to use ruby to execute this file
+# use chmod oug+x txt2csv to make sure the file is executable
+
+puts "This is where txt2csv will be invoked from the command line."
