@@ -2,13 +2,34 @@ Portland Code School
 #Code Challenge 04
 ###Behavior-driven development of field parser and cleaner
 
-
-
 In Code Challenge 03, you wrote code to match some tests (and found some bugs in the tests as well!). The code parsed a _name_ field: it took in a text string and broke it into an array of strings so they could be easily inserted into a database.
 
-In Code Challenge 04, you will write your own tests, then write code to make those tests pass. You will also write code to interpret three fields, not just one.
+In Code Challenge 04, you will write your own tests, then write code to make those tests pass. You will also write code to interpret three fields, not just one. The three fields are: phone number, twitter name, and email. 
 
-The three fields are: phone number, twitter name, and email. Let's look at each in detail
+
+## Process Learning
+
+It is very important that you become aware of your own coding velocity and practice making estimates. These are both difficult, so the sooner you start, the better.
+
+In this assignment, HOW you code is as important as WHAT you code. In addition to the coding instructions at the bottom of the page, please also perform these process instructions.
+
+1. Review the code challenge with your new partner. 
+
+1. Discuss your abilities, your familiarity with the problem to be solved, and how long it has taken you to accomplish earlier challenges.
+
+2. Discuss what has worked and what hasn't in previous pairings, and agree on expectations for how you want to pair on this challenge.
+
+3. Look at your calendar for the coming week and estimate how much time you can devote to classwork.
+
+4. Estimate when your pair will finish this code challenge. Be careful, it's bigger than ever before. Email your instructor with this estimate before 10am, the day after tomorrow.
+
+1. Your instructor will collect all the pair estimates and establish a "drop dead" deadline for the class, at which time we will release the next code challenge.
+
+Can your pair complete this in a week? What would it take in terms of effort to do it as fast as possible?
+
+# Specification
+
+Let's look at each of the methods you must write, one for each field, in detail
 
 ## Phone number
 
@@ -84,10 +105,7 @@ namedomain.com  -- no '@'
 Return either the email string or the "Not Found" string as a single-element array.
 
 
-
-
-
-# Instructions
+# Coding Instructions
 
 
 1. Use the same repository as for Code Challenge 03
