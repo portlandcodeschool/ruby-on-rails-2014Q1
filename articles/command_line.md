@@ -19,7 +19,7 @@ There are two things you feed to a program, *options* and *arguments*. The argum
 
 ![Figure 2—A command-line invocation with switches and flags](imgs/cmdline2.png "  http://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2")
 
-There are two types of options, *long* (two dashes followed by whole words) and *short* (one dash followed by one letter). Most often, the application should take both forms for any given option. If the option takes a value, it's called a "flag", otherwise it's a *switch*.
+There are two types of options, *long* (two dashes followed by whole words) and *short* (one dash followed by one letter). Most often, the application should take both forms for any given option. If the option takes a value, it's called a *flag*, otherwise it's a *switch*.
 
 Some programs take a *command*.
 
@@ -44,7 +44,7 @@ There are a couple of command line app frameworks, like [Methadone](https://gith
 
 ## Using thor
 
-The command line part of thor is dead simple to use.
+The command line part of thor is dead simple to use. Like most Ruby libraries, it defines a "Domain-Specific Language" (DSL) -- essentially methods that read very clearly -- that in this case help define a command line interface.
 
 * Your *program* is represented by one *class*
 * Each *command* is implmented with one *method* with a little DSL sugar for help info
