@@ -10,21 +10,21 @@ Take a moment and [read this excerpt](http://media.pragprog.com/titles/dccar2/un
 
 Briefly, here's the anatomy of a command line user interface.
 
-Figure 1—Basic parts of a command-line app invocation:
+
 ![Figure 1 - Basic Parts of a Command Line Application](imgs/cmdline1.png "http://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2")
 
 There are two things you feed to a program, *options* and *arguments*. The arguments are often *what* that the program operates upon, the options are *how*.
 
 
-Figure 2—A command-line invocation with switches and flags:
-![Figure 2—A command-line invocation with switches and flags](imgs/cmdline1.png "  http://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2")
+
+![Figure 2—A command-line invocation with switches and flags](imgs/cmdline2.png "  http://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2")
 
 There are two types of options, *long* (two dashes followed by whole words) and *short* (one dash followed by one letter). Most often, th application should take both forms for any given option. If the option takes a value, it's called a "flag", otherwise it's a *switch*.
 
 Some programs take a *command*.
 
-Figure 3—Basic parts of a command-suite invocation:
-![Figure 3—Basic parts of a command-suite invocation](imgs/cmdline1.png "http://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2")
+
+![Figure 3—Basic parts of a command-suite invocation](imgs/cmdline3.png "http://pragprog.com/book/dccar2/build-awesome-command-line-applications-in-ruby-2")
 
 When this happens, sometimes the program takes options AND the command takes options. Only the command takes arguments.
 
