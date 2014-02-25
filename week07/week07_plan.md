@@ -8,7 +8,7 @@ Web Development with Ruby on Rails
 
 This week we do our first web application.
 
-At its most basic, a Sinatra application simply attaches a Ruby block to a particular HTTP request. When a browser sends a request to a particular URL with a particulare HTTP verb, Sinatra runs the code in the associated block. Easy peasy, lemon squeezy.  But to understand how this works at a deeper level, you have to understand four things first:
+At its most basic, a Sinatra application simply attaches a Ruby block to a particular HTTP request. When a browser sends a request to a particular URL with a particular HTTP verb, Sinatra runs the code in the associated block. Easy peasy, lemon squeezy.  But to understand how this works at a deeper level, you have to understand four things first:
 
 0. **How HTTP works.** The basic conversation between a browser and a web application is simple, but it's important to know the details if you are going to make your web app work.
 1. **A simple way to arrange your URLs: REST.** Once you understand the role of URLs in web applications, you need to decide how to use them. Representational State Transfer is a simple but powerful way to design your URLs.
