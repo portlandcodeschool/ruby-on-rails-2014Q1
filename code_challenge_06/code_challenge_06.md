@@ -2,8 +2,9 @@
 
 Web Development with Ruby on Rails
 
-#Code Challenge 07
+#Code Challenge 06
 
+#DO NOT START THIS CODE CHALLENGE. IT'S GOOD TO READ THROUGH IT, BUT DON'T START CODING UNTIL YOU HEAR FROM YOUR INSTRUCTOR.
 
 ## Overview
 
@@ -65,7 +66,7 @@ While Frank is working with the client to nail down the look and feel, wireframe
 
 0. Use the sample app files in the code challenge repo. Copy the sample sinatra app folder tree to your repo (and make sure you don't bring any of the git dot files.) 
 
-0. Make the sample app passes its first tests. You will have to fill in the code, these are just some routes. As you can see, we will be using the "classic" form of Sinatra, not the "modular" form. Let's keep things simple.
+0. Make the sample app passes its first tests. **Notice that we are using MiniTest on this project!** You will have to fill in the code, these are just some routes. As you can see, we will be using the "classic" form of Sinatra, not the "modular" form. Let's keep things simple.
 
 0. Don't worry about stylesheets yet, we will deal with those later.
 
