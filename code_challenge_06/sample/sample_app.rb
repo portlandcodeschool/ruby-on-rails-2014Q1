@@ -9,7 +9,7 @@ require 'pry'
 # Sinatra do more of the behind-the-scenes
 
 get '/' do
-  "Hello, World!"
+  # "Hello, World!"
 end
 
 post '/' do
