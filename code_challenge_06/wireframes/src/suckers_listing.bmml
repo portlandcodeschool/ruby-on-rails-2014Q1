@@ -1,0 +1,47 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="665" measuredH="775" mockupW="605" mockupH="755">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="60" y="20" w="605" h="755" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Born%20Every%20Minute%0Ahttp%3A//localhost%3A4567/suckers</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="116" y="191" w="-1" h="-1" measuredW="146" measuredH="43" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suckers</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="176" y="688" w="329" h="25" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <text>Copyright%20@%202014%20The%20Long%20Con%20LLC</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::SubTitle" x="116" y="155" w="-1" h="-1" measuredW="199" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <italic>true</italic>
+        <text>Born%20Every%20Minute</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::DataGrid" x="116" y="275" w="503" h="141" measuredW="272" measuredH="141" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <alternateRowColor>16777215</alternateRowColor>
+        <text>Name%2C%20Email%0AGiacomo%20Guilizzoni%2C%20peldi@gmail.com%0AMarco%20Botton%2C%20marco@gmail.com%0AMariah%20Maclachlan%2C%20queenlight@gmail.com%0AValerie%20Liberty%2Chadchef@gmail.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Paragraph" x="116" y="246" w="283" h="29" measuredW="200" measuredH="80" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Click%20anywhere%20on%20o%20row%20to%20see%20details</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::StickyNote" x="464" y="431" w="147" h="131" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Note%20that%20only%20some%20of%20the%20customer%20details%20appear%20on%20this%20page.</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::StickyNote" x="434" y="123" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>This%20page%20lists%20all%20the%20known%20suckers.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
