@@ -60,6 +60,7 @@ An ORM also provides other nifty features. It translates the data types in Ruby 
 [DataMapper](http://datamapper.org) is an ORM gem that is easy to understand. There are several to choose from. Later, in Rails, we'll use the ActiveRecord ORM. By trying out two before you're done, you'll become acquainted with some of the design decisions ORM creators have to make.
 
 The basic sequence for using DataMapper is laid out in your code:
+
 0. Connect up to a database
 1. Define your model (your objects)
 2. Use DataMapper methods to store, find, and retrieve your objects.
