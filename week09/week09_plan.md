@@ -84,6 +84,7 @@ Get a [simple cross-platform SQLite GUI client](http://sqlitebrowser.sourceforge
 
 
 [^1]:Create, Read, Update, Delete - ~~the building blocks of the universe~~ the basic operations of a database
+
 [^2]:Schema - the plan for a database - definitions of all the tables, attributes, types, etc. 
 
 
