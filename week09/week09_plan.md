@@ -18,8 +18,7 @@ There are a couple of things that you need to come up to speed on:
 # Activities
 
 * Continue Ruby Koans through *at least* #200
-* Code Challenge 07. 
-
+* Code Challenge 08. 
 
 
 # Topics
@@ -78,7 +77,7 @@ See the [example app](sinatra_datamapper_example.md) that shows how to use DataM
 
 SQLite is the world's most popular database engine. It's not particularly powerful, but it is light and file-based. So, you find it in all sorts of applications on all sorts of devices. You do a lot of prototyping of web sites on SQLite. The wonderful thing about using an ORM is your choice of database engine doesn't matter (for simple apps). You just code using the ORM, and the ORM takes care of the database.
 
-Learn more about SQLite at [the project home page](w.sqlite.org/about.html). You don't need to learn much about SQLite for this class, but you'll use it for small apps and prototyping throughout during your career.
+Learn more about SQLite at [the project home page](http://www.sqlite.org/about.html). You don't need to learn much about SQLite for this class, but you'll use it for small apps and prototyping throughout during your career.
 
 Get a [simple cross-platform SQLite GUI client](http://sqlitebrowser.sourceforge.net) so you can see what's going on with the database as your app does its thing. Once your app is up and running and DataMapper has created the database file, open it with SQLite Browser to watch the magic.
 
