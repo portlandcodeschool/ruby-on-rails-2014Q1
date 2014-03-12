@@ -12,15 +12,15 @@ Welcome to refactoring. This is a constant task in software development and a la
 
 Long ago, you developed some code that parsed strings. You refactored this code to clean up data in a text file and save it in a CSV file. Then you refactored this code so both the string parsing routines and the CSV file could be used in a web application. Now, you take another step to refactor your code to use a database instead of a CSV file. 
 
-Some of these steps where easier that others. Along the way, you made choices about what to preserve and what to change. Each of these choices influenced how hard it was to isolate your refactoring to just one part of the system.
+Some of these steps were easier that others. Along the way, you made choices about what to preserve and what to change. Each of these choices influenced how hard it was to isolate your refactoring to just one part of the system.
 
-In our last exciting episode, you updated your working Sinatra web application so that it accepted data from a form, stored it in a file, then used the file to retreive information and display it.
+In our last exciting episode, you updated your working Sinatra web application so that it accepted data from a form, stored it in a file, then used the file to retrieve information and display it.
 
-In this code challenge, you will swap out the file and insert a database. Depending on how you structured the code, this could either be an easy task or a... uh... opportunity for more refactoring.
+In this code challenge, you will swap out the file and insert a database. Depending on how you structured the code, this could either be an easy task or a... uh... an opportunity for more refactoring.
 
 ### Refactoring tests as you refactor code
 
-At the end of this code challenge, you should have a full suite of tests that include acceptance tests that verify a round-trip of form data to the database and back out to the list and then to details. You should include functional level tests that verify your parsing methods, your form handling, your data displaying, and your database operations. And, of course, you should have a full set of any unit tests needed for methods used by these operations. 
+At the end of this code challenge, you should have a full suite of tests that include *acceptance tests* that verify a round-trip of form data to the database and back out to the list and then to details. You should include *functional tests* that verify your parsing methods, your form handling, your data displaying, and your database operations. And, of course, you should have a full set of any *unit tests* needed for methods used by these operations. 
 
 As you re-use code, bring the tests along and update them so that they still run and still verify your code. If you are using an existing routine in a new environment, re-run the tests and make sure they pass to eliminate any translation errors.
 
@@ -48,9 +48,16 @@ Then, put the Parse methods in a module and use them in the Sucker class as need
 
 ### Sucker class
 
-The web app collects suckers, stores them, and then displays them. Clearly, there should be a Sucker class so you can treat the stuff you get, store, and display as objects. It is the "Model" of the Model-View-Controller architecture
+The web app collects suckers, stores them, and then displays them. Clearly, there should be a Sucker class so you can treat the stuff you get, store, and display as objects. The "Sucker" is the "Model" of the Model-View-Controller architecture
 
-The app form collects data and the app creates a sucker. The sucker should know how to clean the strings and store the data fully parsed in some internal data structure that isn't exposed to other parts of the software. Define it in the DataMapper model DSL and hide it from everybody else.
+The app form collects data and the app creates a sucker. Wouldn't it be cool if this was one line?
+
+````ruby
+  sucker = Sucker.new(params[:sucker])
+````
+This is doable. It's a matter of choosing your form field names and your model attributes correctly. What's tricky is cleaning the data. But that's something the Sucker class should handle by itself.
+
+The sucker should know how to clean the form field strings and store the data fully parsed in some internal data structure that isn't exposed to other parts of the software. Define it in the DataMapper model DSL and hide it from everybody else.
 
 The app stores suckers in a database. This should be a simple ```sucker.save``` instance method (and, if you set things up correctly, should be provided by the DataMapper ORM).
 
@@ -67,7 +74,7 @@ If your code is already structured like this, you'll have a much easier time rep
 
 ### Working in parallel
 
-Depending on your team's approach, it might be useful to use branches in your git process. If, for example, you give one team the job of refactoring the front end and the other team of refactoring the backend, they could each branch to their own feature branch and then deliver back to the master branch. You might have a team go off and refactor the Parse class into a module. It all depends on how you want to work.
+Depending on your team's approach, it might be useful to use branches in your git process. If, for example, you give one team the job of refactoring the front end and the other team of refactoring the back-end, they could each branch to their own feature branch and then deliver back to the master branch. You might have a team go off and refactor the Parse class into a module. It all depends on how you want to work.
 
 A couple of tips: Isolate and Integrate
 
@@ -78,7 +85,6 @@ Integrate - make changes is chunks that others can use immediately. Pull from yo
 ## Deadline
 
 Consult with your team and review the work required in your particular project. Send your estimate to your instructor as soon as possible. If your estimate is past next Tuesday at 6pm, let's talk.
-
 
 ## Instructions
 
@@ -103,12 +109,6 @@ Move the CSV file into a database using the seed routine supplied in the sample 
 Replace the CSV file with a SQLite database, interfaced via a DataMapper ORM. Look at the sample app for hints on how to write the Sucker model. Install a SQLite client to watch your code work and aid in debugging.
 
 When your code works, run your benchmarks again (all five cases) and see if there is any change.
-
-
-
-
-
-
 
 <hr />
 Copyright © 2014 Alan Zimmerman <br />
