@@ -31,7 +31,8 @@ end
 # choice of variable names in the form.
 post '/entries' do
   e = Entry.new(params[:entry])
-  e.save
+  e.word.capitalize! # DataMapper gives us accessor methods automatically
+  e.save             # It also gives us methods for database access
   redirect 'entries'
 end
 
