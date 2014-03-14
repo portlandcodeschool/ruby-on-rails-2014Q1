@@ -13,14 +13,14 @@ DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/suckers.sqlite3")
 class Sucker
   include DataMapper::Resource
   property :id, Serial
-  property :prefix, String
+  property :name_prefix, String
   property :first_name, String
   property :middle_name, String
   property :last_name, String
   property :suffix, String
   property :country_code, String
   property :area_code, String
-  property :prefix, String
+  property :exchange, String
   property :line, String
   property :extension, String
   property :twitter, String
