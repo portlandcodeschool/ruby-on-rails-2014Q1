@@ -10,9 +10,9 @@ It starts with user stories. For the purposes of this capstone, we can limit our
 
 User stories in the capstone have a specific format in this exact structure:
 
-*. Who is using the feature (AKA the *role*), starting with the key phrase "As a"
-*. The reason why the feature exists (AKA the *goal* or the business value), starting with the key phrase "In order to"
-*. The outcome they expect, starting with the key phrase "I want"
+* Who is using the feature (AKA the *role*), starting with the key phrase "As a"
+* The reason why the feature exists (AKA the *goal* or the business value), starting with the key phrase "In order to"
+* The outcome they expect, starting with the key phrase "I want"
 
 Sometimes the role is first, some times the goal is. Sometimes the goal is hard for customers to articulate, but it is essential for understanding.
 
