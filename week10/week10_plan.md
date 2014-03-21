@@ -24,6 +24,7 @@ Each student is responsible for accomplishing these assignments as individuals. 
   0. [Rails for Zombies Redux](https://www.codeschool.com/courses/rails-for-zombies-redux)
   0. [Rails for Zombies 2](https://www.codeschool.com/courses/rails-for-zombies-2)
   0. [Rails 4: Zombie Outlaws](https://www.codeschool.com/courses/rails-4-zombie-outlaws)
+3. Read the [introductory "Getting Started" Rails Guide](http://guides.rubyonrails.org/getting_started.html)
 
 Note! The various tutorials and screencasts use different versions of Rails (mostly 3.2 vs 4.0). So will your employers. Pay attention!
 
