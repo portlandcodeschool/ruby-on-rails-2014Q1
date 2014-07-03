@@ -10,7 +10,6 @@ require "parse_names.rb"
 
 # * Everything in [square brackets] is optional. 
 # * There may be a middle name or a middle initial, but not both. 
-# * If there is a middle name or a last name, there will be a first name. (For "M. Jackson", "M." is the first name.)
 # * There is always a last name (For "Miss Jane," "Jane" is a last name)
 # * Sometimes the last name is hyphenated (as in "Dr. Huntington-Smythe"). Do not split hyphenated last names.
 
@@ -75,12 +74,12 @@ describe Parse do
   it "should parse prefixes and last names and suffixes" do
     pending
     return_array = Parse.parse_names(prefixes, suffixes, "Lady Madona III")
-    expect (return_array).to eq(["Lady","","","Madona","III"])
+    expect(return_array).to eq(["Lady","","","Madona","III"])
   end
 
   it "should parse the whole banana" do
     pending
-    return_array = Parse.parse_names(prefixes, suffixes, "Lady Samuel Madona-Richey III")
+    return_array = Parse.parse_names(prefixes, suffixes, "Lady Mary Samuel Madona-Richey III")
     expect(return_array).to eq(["Lady","Mary","Samuel","Madona-Richey","III"])
   end
 
